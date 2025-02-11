@@ -265,7 +265,7 @@ h2 {
 
 /* Gallery page */
 .gallery-container {
-    max-width: 1300px;
+    max-width: 1800px;
 }
 
 .slick-dots {
@@ -276,12 +276,11 @@ h2 {
 	position: relative;
 	float: left;
     overflow: hidden;
-    margin: 0;
-    max-width: 240px;
+    max-width: 700px;
     margin-left: 10px;
     margin-right: 10px;
 	height: auto;
-	background: #3085a3;
+	background: #b80050;
 	text-align: center;
 	cursor: pointer;
 }
@@ -294,7 +293,7 @@ h2 {
 }
 
 .gallery-slider figure figcaption {
-	padding: 1em;
+	padding: 1em; /*tamenho da mensagem em frente a imagem*/
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 1.25em;
@@ -347,7 +346,7 @@ h2 {
 }
 
 .gallery-section {
-  background-color: #99ccff;
+  background-color: #b80050;
 }
 
 .gallery-section .title {
@@ -380,19 +379,20 @@ figure.effect-julia h2 {
 	padding: 0.5em 0;
 }
 
+/*responsável pela mensagem que aparece em frente a imagem */
 figure.effect-julia p {
 	display: inline-block;
 	margin: 0 0 0.25em;
 	padding: 0.4em 1em;
-	background: rgba(255,255,255,0.9);
-	color: #2f3238;
+	background: #b80050;
+	color: #ffffff;
 	text-transform: none;
 	font-weight: 500;
 	font-size: 75%;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-360px,0,0);
-	transform: translate3d(-360px,0,0);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.20s;
+	transition: opacity 0.35s, transform 0.25s;
+	-webkit-transform: translate3d(-300px,0,0);
+	transform: translate3d(-300px,0,0);
 }
 
 figure.effect-julia p:first-child {
@@ -439,7 +439,7 @@ figure.effect-julia:hover p {
 
 .gallery-slider .slick-dots li.slick-active, 
 .gallery-slider .slick-dots li:hover {
-    background-color: #3CCDFF;
+    background-color: #b80050;
 }
 
 .gallery-slider .slick-dots li {
@@ -451,13 +451,13 @@ figure.effect-julia:hover p {
     transition: all 0.3s ease;
 }
 
-/* About page */
+/* About page 
 .tm-about-container {
     border-top: 1px solid white;
     padding-top: 50px;
     padding-bottom: 50px;
     border-bottom: 1px solid white;
-}
+}*/
 
 /* Contact page */
 .tm-contact-left {
