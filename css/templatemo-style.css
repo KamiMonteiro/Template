@@ -52,9 +52,9 @@ h2 {
 }
 
 .btn-primary {
-    background-color: white;
+    background-color:rgb(184,0,80);
     border: none;
-    color: #333;
+    color: #ffffff;
 }
 
 .btn-primary:hover,
@@ -85,7 +85,7 @@ h2 {
 }
 
 .navbar a {
-    color: rgb(86, 42, 125);
+    color: rgb(80, 39, 39);
 }
 
 .navbar-brand {
@@ -108,7 +108,7 @@ h2 {
 .navbar .navbar-nav .nav-item .nav-link {
     font-size: 1.5rem;
     padding: 10px 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     position: relative;
     overflow: hidden;
     background: none;
@@ -120,7 +120,7 @@ h2 {
     position: relative;
 }
 
-.circle {
+/*.circle {
     position: absolute;
     left: calc(50% - 10px);
     bottom: -10px;
@@ -128,17 +128,33 @@ h2 {
     height: 20px; 
     background-color: white;
     border-radius: 50%;
-}
+}*/
 
 
 .tm-border-bottom {
-    border-bottom: 1px solid white;
+    border-bottom: 3px solid rgb(184,0,80);
     padding-bottom: 48px;
 }
 
 .tm-border-top {
-    border-top: 1px solid white;
+    border-top: 3px solid rgb(184,0,80);
     padding-top: 48px;
+}
+
+/* Adiciona linhas nas laterais */
+.tm-border-left {
+    border-left: 3px solid rgb(184,0,80);
+    padding-left: 48px;
+}
+
+.tm-border-right {
+    border-right: 3px solid rgb(184,0,80);
+    padding-right: 48px;
+}
+
+.cd-slider-nav li.selected a+.circle,
+.navbar .navbar-nav .nav-item .nav-link:hover+.circle {
+    background-color: rgb(253, 255, 253);
 }
 
 /*manter*/
@@ -147,12 +163,6 @@ h2 {
     background: rgb(184, 0, 80);
     color: white;
     border-radius: 8px;
-}
-
-
-.cd-slider-nav li.selected a+.circle,
-.navbar .navbar-nav .nav-item .nav-link:hover+.circle {
-    background-color: rgb(253, 255, 253);
 }
 
 .navbar-toggler-icon {
